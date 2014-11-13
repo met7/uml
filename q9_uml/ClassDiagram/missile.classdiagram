@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="881180eb-4e71-476e-999d-3f1913fdf217" name="missile" linkedPackageId="44bad9f2-45ca-4e83-9e87-30accaa467bf" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="afaec8d8-be41-4467-90c5-02618f2bd44d" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="eec9618d-c512-4b35-aa33-5c1c65d13874" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="d22d2a2b-2b7a-4889-b883-6bec3f44fb3e">
+          <propertyInstance Id="1c47ef54-9166-44c0-bbb6-19c79fcce778" name="BaseName">
+            <elementDefinition Id="ac379aa8-d1a6-418d-8d97-c6995d3c0ceb" />
+          </propertyInstance>
+          <elementDefinition Id="8d6ba294-2fb3-4f17-a6f3-82b77aafeb42" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="ede59606-8f06-49fb-bc50-a91cd4d91bef">
+          <propertyInstance Id="ef9438dc-b38d-42ca-9dac-67f62d280282" name="ClrAttributes">
+            <elementDefinition Id="48a312ea-38cc-4764-a25c-d4229f848cbb" />
+          </propertyInstance>
+          <elementDefinition Id="6cb8fe0c-e09c-47a5-9d1b-97af90a4befd" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="5d6f779d-6436-4759-8ae7-257fc2310db7">
+          <propertyInstance Id="1d44e9ed-5092-4322-aac8-d4781d4ea82f" name="Usings">
+            <elementDefinition Id="c9eb89a8-4780-47f2-adb8-af796c7767d7" />
+          </propertyInstance>
+          <elementDefinition Id="0a8aa721-734f-4d56-a32b-d9042057f4b8" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="e84beed9-8206-463c-8a4d-12e323acebb8" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="4632475e-5a0e-4e90-9cfa-fb798f104f39" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="ed44bcc8-43a7-4b0b-9845-44821b306d11">
+          <propertyInstance Id="0b221b06-7b9c-4b93-9fe6-c779a0cab682" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="b6727771-0c28-4163-9c13-a7fc8f5ba41b" />
+          </propertyInstance>
+          <elementDefinition Id="dac6f499-559d-4ea3-9435-d23cb76d8c1c" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="4901243b-b73a-4e20-b5d1-6a84cfb104e2">
+          <propertyInstance Id="b34f09f4-e5ea-4944-9933-234ec0335da1" name="TemplateFilePath" value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="ade95841-da2e-46b0-b6b0-9585ad0704cd" />
+          </propertyInstance>
+          <elementDefinition Id="52008c96-184b-42fd-837e-66004b43a895" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="a5df4ec7-0084-4b04-b3e6-caad7c435c9c">
+          <propertyInstance Id="88176526-de34-4c5e-94ab-31728d41d178" name="ProjectPath" value="ClassTemplate=..\q9_umlLib\q9_umlLib.csproj|EnumTemplate=..\q9_umlLib\q9_umlLib.csproj|InterfaceTemplate=..\q9_umlLib\q9_umlLib.csproj|StructTemplate=..\q9_umlLib\q9_umlLib.csproj">
+            <elementDefinition Id="c95a2c01-6c5e-4d24-8724-7b161ad79b66" />
+          </propertyInstance>
+          <elementDefinition Id="4ae53c39-2d65-403d-b189-ff5f400b4732" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="c15c34ca-bd83-4d91-90cf-90bd6ff64bcc">
+          <propertyInstance Id="b2671b03-7590-4fc0-886f-cd06ddf21197" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="7769d485-cb0b-4d49-b085-30c1e723817c" />
+          </propertyInstance>
+          <elementDefinition Id="be632339-9fb3-45ee-8596-ecf7f8b73802" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="70eb5657-9c2c-4f16-ae71-ea688abf2714">
+          <propertyInstance Id="c17fb5c4-49a4-4eec-884e-4f33a18e10d9" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="acda0d99-d3ce-4dba-8a37-6e711a86cfa2" />
+          </propertyInstance>
+          <elementDefinition Id="93a6c3cb-ef01-4c64-8a8b-310b27067ba2" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="a71396dd-8dcd-418d-ab1e-28accf4f0e59">
+          <propertyInstance Id="aaa92c63-10d9-47cf-b448-7712e7a6efda" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="8cc45fcc-8687-4123-946a-1b8259b08e19" />
+          </propertyInstance>
+          <elementDefinition Id="a399f5a7-bce4-4ad4-9fd5-de6580bd2f09" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="6367f8d8-0d7a-40b2-87b5-f0b89d690cbd">
+          <propertyInstance Id="b61afb63-f45f-4398-9b41-0e4e5d2a1abe" name="Parameters">
+            <elementDefinition Id="2ffb3978-3c6d-4c10-8ac1-7f1ced2f188a" />
+          </propertyInstance>
+          <elementDefinition Id="f2f33004-8fb9-4499-b0e2-6f01167e76d1" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="006849c1-06a6-47bd-9581-72e0fcf19ad1" name="GLMissile" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="f960ce43-3b9a-462e-a6f8-359515cb7e86" />
+        <targetEnds>
+          <association Id="e99938c9-d6fb-41ff-91de-dcb06bbb3b8d" isDerived="false" sourceEndRoleName="GLMissile" targetEndRoleName="FlyController" isLeaf="false" isAbstract="false">
+            <classMoniker Id="a3baf6cc-9bd1-4d3c-8b83-08565039252e" LastKnownName="GLBallisticBase" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d6dbaa96-143b-478f-b6b1-86fd2355d717" name="GLMissile" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="5930a17a-5faa-46ba-ae73-c49490adf170" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3f6da6d0-ef4e-4724-b4c5-b1ed10579c76" name="FlyController" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="644e2113-cd09-4359-897f-bb12296800ce" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3066b0e4-49d7-42ed-af1e-7eda50fbee3e" />
+          </association>
+          <association Id="e87496c0-e3f9-42ed-9fe9-0cf232438379" isDerived="false" sourceEndRoleName="GLMissile" targetEndRoleName="CollisionController" isLeaf="false" isAbstract="false">
+            <classMoniker Id="0bece0f1-db1e-493a-815b-7e052a8b806d" LastKnownName="GLDamageController" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="bc922b50-5d15-42b7-b26e-f05a8bb32b4e" name="GLMissile" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="3c5069b4-0c9e-412f-9295-ab3e194eee2d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0790d11e-adf0-4e3e-a451-1a1533a63766" name="CollisionController" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="18a3d4b2-164c-439a-b01a-66009a1d00a5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="729b994a-3589-40f2-9609-725092c3d7e8" />
+          </association>
+          <association Id="b6872e60-97fa-4411-974a-5f5b0496950c" isDerived="false" sourceEndRoleName="GLMissile" targetEndRoleName="GLLifeController" isLeaf="false" isAbstract="false">
+            <classMoniker Id="78ac7dd7-9bcb-43fe-8982-26b4264eca90" LastKnownName="GLLifeController" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="25607490-11cf-4ed1-a69b-39afbbb0e80f" name="GLMissile" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c1732b79-6b9e-42ac-9a70-bc0eca281c1a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="63203816-ae03-42ad-94da-276bd180b748" name="GLLifeController" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="528c47e7-0af6-4c8c-b030-5264eca684e2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="520fdca8-0428-422a-bb06-be74ffc99a53" />
+          </association>
+          <association Id="af4020fe-04f1-4736-8a3f-49c08cb871fa" isDerived="false" sourceEndRoleName="GLMissile" targetEndRoleName="RLAniController" isLeaf="false" isAbstract="false">
+            <classMoniker Id="ec85ad2c-bc24-44e0-893c-79eb40758b3d" LastKnownName="RLAniController" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="23542f17-5d98-4279-b01e-344daa84d475" name="GLMissile" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="09411d77-75f9-43c4-bf5a-0b888c6a92da" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e9df3500-11fc-457d-98f8-48e64d446773" name="RLAniController" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="5e666318-d448-42e8-8c88-c69dd115e4fa" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="009f46a7-76f7-456d-a35b-b25c1c48568e" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="142cdbc1-8275-4963-83d9-90c01dc9d2e4" name="pBallisitic" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="8205b933-4f5c-46d6-b528-4ec0c931d13e" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="56ba6dc2-3aa8-482a-8a46-04437b62801c" LastKnownName="GLBallisticBase" />
+            </type_NamedElement>
+          </property>
+          <property Id="e67268c8-6595-430f-a885-0bb53b828ef6" name="pDamageController" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="54b6ce81-4572-4441-8d8f-6e28f99a985c" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="a4d5dc28-a011-4256-8902-133730135e69" LastKnownName="GLDamageController" />
+            </type_NamedElement>
+          </property>
+          <property Id="ce9335f9-9db5-42ae-b97d-2a7f60371cd6" name="pLifeController" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="90f141ab-3c16-493d-b84e-3f7618986262" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="7a99c754-6f43-490a-b074-a76cac477533" LastKnownName="GLLifeController" />
+            </type_NamedElement>
+          </property>
+          <property Id="1a7429df-3a10-40a7-b4fa-d955a8047bce" name="pAniController" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="fc8332da-a4d4-4ad8-993c-30dd2a839acd" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="b08e13e6-bc28-4a66-a6fa-eeb23d11a575" LastKnownName="RLAniController" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="b1a517af-c0bd-4e9a-a02b-e78532796fb8" name="Activate" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="8dd16e67-8814-42f8-ab0b-ca31098974cd" />
+          </operation>
+          <operation Id="0975e0d5-0257-47d3-93cc-7ed8316e26d1" name="Init" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="598706ff-3325-45ff-991d-98189445c4b9" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="a3baf6cc-9bd1-4d3c-8b83-08565039252e" name="GLBallisticBase" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="46e5b2be-f0fc-4048-bbe1-2cc31e086b9b" />
+        <ownedAttributesInternal>
+          <property Id="88fac9df-efd1-4f40-bfb5-c64ce08bd859" name="rigidbody2D" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="28ec5c94-94e5-4232-b723-e031e07f0d18" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="5db932b9-6966-4825-a5b4-148ed6334873" name="Activate" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="1afbacf8-1b3d-47f8-946e-b44f41ea27dd" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="2d5c5861-004c-4df9-afd9-7e6a3224c021" name="GLCurveBallisitic" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="aea9b6d2-13fa-435a-8ebf-eafb6cd58712" />
+        <generalsInternal>
+          <generalization Id="41248d5f-dd0b-4b21-886d-bec066ffe1bc" isSubstitutable="false">
+            <classMoniker Id="a3baf6cc-9bd1-4d3c-8b83-08565039252e" LastKnownName="GLBallisticBase" />
+            <elementDefinition Id="791818be-470c-4ad2-b4a2-84746d4e5f5c" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="aff22170-ebea-4334-82f4-e7a4d3fea27c" name="curveFunction" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d582369a-5617-402c-9391-2173eee11072" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="71d9bd5c-64b1-4951-a6d5-2dec091f682d" name="Activate" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="502d18de-9cda-44c9-9bfd-f5a4e30f1d91" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="e310de40-a340-4ebd-a835-28f97956e150" name="GLGuidedBallisitic" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="4e23a6e5-dc4f-4e47-9209-58a0795f492e" />
+        <generalsInternal>
+          <generalization Id="d7034837-58b7-4625-9d52-3640c0796b99" isSubstitutable="false">
+            <classMoniker Id="a3baf6cc-9bd1-4d3c-8b83-08565039252e" LastKnownName="GLBallisticBase" />
+            <elementDefinition Id="a0100777-da1b-41d4-ae2d-fc578a68f924" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="a9cbeabf-0037-48b9-8ad3-0cc0973236e4" name="target" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d624a907-bc60-4037-8e33-b8e717127f3f" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="9f95f9b1-fa0b-45f7-b097-0ff35f31b78e" LastKnownName="GLNpc" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="e74c2011-be51-4984-ab2a-a4708c309a28" name="Activate" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="7f1fb89d-1775-4073-a91a-a071964e95c9" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="0bece0f1-db1e-493a-815b-7e052a8b806d" name="GLDamageController" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="52608cba-d1d9-4fbc-8696-0254c0835d2e" />
+        <targetEnds>
+          <association Id="b56d8e3d-1338-49d3-a4a3-a0992685ebec" isDerived="false" sourceEndRoleName="GLDamageController" targetEndRoleName="GLExplose" isLeaf="false" isAbstract="false">
+            <classMoniker Id="35b6d8cb-bde3-411f-801a-b63850211ab3" LastKnownName="GLExploseBase" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4320b9f0-4b09-4434-bc4e-c18d7403803d" name="GLDamageController" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="3a59faf7-11c0-4c8c-8e80-0be04a8cc654" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f4eba4b2-f932-4063-ab91-61d3cecc48a0" name="GLExplose" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="cbc41b60-d4bc-4110-816b-b731ad7b1b06" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e45cd384-62e0-4e51-a1b6-3e73937bd2dc" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="3e1a383a-0bcf-4a73-b634-a19de1fa52a2" name="passThroughDamage" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b64920c0-19d4-4c7b-8a21-d62c8a7669ac" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="15ed6a83-4def-490f-9631-b5aa3b208750" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="65be4ac0-e310-4447-8c2d-79ab77c746e6" name="OnPassThrough" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="ec443620-7ec2-4b64-b73d-c868ca69c158" />
+          </operation>
+          <operation Id="0c9d7c69-0e72-424b-802d-cf737794365e" name="OnExplose" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="fcf67d5f-55ed-4086-a6ba-70e061b6309a" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="35b6d8cb-bde3-411f-801a-b63850211ab3" name="GLExploseBase" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e67d798d-9f16-43ac-9c4f-ec93eb274676" />
+        <ownedAttributesInternal>
+          <property Id="216daa72-84f5-4528-8fdf-14ef31e2be92" name="damage" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="519dddc7-affe-4924-9047-2b37aeca1e7b" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="15ed6a83-4def-490f-9631-b5aa3b208750" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="35cfa1a1-6e81-4c7a-a200-f155bc4a4908" name="OnExplose" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="ad2c75b4-0a13-4293-b265-c01d90861841" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="78ac7dd7-9bcb-43fe-8982-26b4264eca90" name="GLLifeController" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="267f93f1-d608-4e63-86e2-fdc70f0e0f63" />
+        <ownedOperationsInternal>
+          <operation Id="093f06ed-7c9c-402b-86f6-b802c2aeae39" name="Activate" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="4d1125f9-166a-4480-bb62-cc6f303505dd" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="4ee8714a-b38c-45ba-8072-fe5bf99a514d" name="AniController" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="4951c886-2732-42d1-92a8-f4448d8beedc" />
+        <ownedAttributesInternal>
+          <property Id="ebe873ca-00f2-4cb5-ae3a-f5ae4c7f26b1" name="spriritFrames" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="69b9757f-4115-42f6-a1f1-1aa6a4c585f6" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="ec85ad2c-bc24-44e0-893c-79eb40758b3d" name="RLAniController" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="56a72f91-235e-4e66-b7f2-ccc2cecefdd9" />
+        <ownedAttributesInternal>
+          <property Id="b2ce801f-9e3d-41b2-87c6-5095e9fdab22" name="mapStateFrames" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6ff17645-51fe-44be-b3d5-d36306233bc8" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="f1ce2133-5cce-40b2-b2f5-e74681ddc9b0" LastKnownName="Dictionary&lt;State, FrameList&gt;" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="2aa618c7-83d0-4c98-bf6a-8406aa53a823" name="Update" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="06595588-8f64-4815-b88d-d6c464f57ca0" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="9fab62dd-64c5-4a94-9c6b-5c03777ba107" name="RLTriggerHandler" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b5e1a03f-281d-4928-ba75-65f48cf303c9" />
+        <suppliersInternal>
+          <dependency Id="52f13ccc-9eac-42c5-b8c5-7b9b75c4a6b8">
+            <classMoniker Id="0bece0f1-db1e-493a-815b-7e052a8b806d" LastKnownName="GLDamageController" />
+            <elementDefinition Id="b44ff567-b590-4ec9-86f1-91043a245278" />
+          </dependency>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation Id="e0fc14a9-0b3d-4286-901e-ead902c02b3b" name="OnTriggerEnter2D" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="a8b6212d-f7a1-437e-9ef4-da36105346c5" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="8e9b5773-cd25-47ef-a77c-87c134b45a0a" name="GLImpactWave" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="1f81393d-7657-4f81-9195-e01924b96a8c" />
+        <generalsInternal>
+          <generalization Id="964b48fe-6686-4f3e-9878-caf43b8ad98c" isSubstitutable="false">
+            <classMoniker Id="35b6d8cb-bde3-411f-801a-b63850211ab3" LastKnownName="GLExploseBase" />
+            <elementDefinition Id="ba1fa545-8e21-4160-b4a1-5d1e0e07ae88" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="97a41c71-0bd5-484f-9b93-266ec0ba2295" name="radius" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1074bd1e-898b-4648-bed6-984f99fb42f6" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="15ed6a83-4def-490f-9631-b5aa3b208750" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="46ba0624-ca75-4429-a47d-d56bf6e91cfa" name="GLGrenade" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="eb187840-9f82-43bf-81e8-371add714e0c" />
+        <generalsInternal>
+          <generalization Id="1fbf8f4f-ca12-460d-a441-e43d91a93d56" isSubstitutable="false">
+            <classMoniker Id="35b6d8cb-bde3-411f-801a-b63850211ab3" LastKnownName="GLExploseBase" />
+            <elementDefinition Id="d9b43ba2-9b03-4cee-8a47-45545d089c69" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="5d8f176f-20b6-4eaf-ba13-871dd20ab12c" name="fragment" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="30179d07-c621-4a50-b423-2f4414ac5657" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="d39a4ab8-7c83-4772-b726-310496860bf6" LastKnownName="GLMissile" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="56ba6dc2-3aa8-482a-8a46-04437b62801c" name="GLBallisticBase" isAbstract="false" isLeaf="false" cachedFullName="q9_uml::GLBallisticBase">
+        <elementDefinition Id="46e5b2be-f0fc-4048-bbe1-2cc31e086b9b" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="f1ce2133-5cce-40b2-b2f5-e74681ddc9b0" name="Dictionary&lt;State, FrameList&gt;" isAbstract="false" isLeaf="false" cachedFullName="Dictionary&lt;State, FrameList&gt;">
+        <elementDefinition Id="2f843472-8a95-4e6a-bdf3-7b5fa55e01de" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="7a99c754-6f43-490a-b074-a76cac477533" name="GLLifeController" isAbstract="false" isLeaf="false" cachedFullName="q9_uml::GLLifeController">
+        <elementDefinition Id="267f93f1-d608-4e63-86e2-fdc70f0e0f63" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="b08e13e6-bc28-4a66-a6fa-eeb23d11a575" name="RLAniController" isAbstract="false" isLeaf="false" cachedFullName="q9_uml::RLAniController">
+        <elementDefinition Id="56a72f91-235e-4e66-b7f2-ccc2cecefdd9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="a4d5dc28-a011-4256-8902-133730135e69" name="GLDamageController" isAbstract="false" isLeaf="false" cachedFullName="q9_uml::GLDamageController">
+        <elementDefinition Id="52608cba-d1d9-4fbc-8696-0254c0835d2e" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="9f95f9b1-fa0b-45f7-b097-0ff35f31b78e" name="GLNpc" isAbstract="false" isLeaf="false" cachedFullName="GLNpc">
+        <elementDefinition Id="ae3bd0ba-0945-476e-a994-67b7f9aa7115" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="15ed6a83-4def-490f-9631-b5aa3b208750" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="c4025ace-fe12-4ab5-b33b-f75f84c0f7bc" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="d39a4ab8-7c83-4772-b726-310496860bf6" name="GLMissile" isAbstract="false" isLeaf="false" cachedFullName="q9_uml::GLMissile">
+        <elementDefinition Id="f960ce43-3b9a-462e-a6f8-359515cb7e86" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="44bad9f2-45ca-4e83-9e87-30accaa467bf" name="q9_uml">
+    <elementDefinition Id="946c6b2c-b52a-46f6-881c-bc6d2f73b64a" />
+    <profileInstances>
+      <packageHasProfileInstances Id="f6914968-f0ee-42d0-96ac-a4a71cbf334e">
+        <profileInstance Id="47280eff-d99c-4009-8c1e-9658b46d1405" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="a705e547-49ab-42f4-9195-3009407a92f0">
+        <profileInstance Id="3070686a-ee24-451e-a12d-81384d77cf83" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="2cbc051f-c7ca-4bc4-9d57-bc127c5ac09d">
+        <profileInstance Id="ce6fbf84-250d-4298-843d-67d72fa6f7df" name="CSharpProfile">
+          <elementDefinition Id="a259e1ed-adea-4db8-9148-3707454ffb7e" />
+        </profileInstance>
+        <elementDefinition Id="6414b87b-af0f-4220-8576-90c308ec4fdf" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="6f1e6f91-5ea2-487e-b30b-5ba4bf7217d8">
+        <profileInstance Id="cac9fcd2-a61a-4f8e-bb90-5de69fadb959" name="TextTemplateBindings">
+          <elementDefinition Id="949c7658-8f2f-4230-9d92-cee13472e57b" />
+        </profileInstance>
+        <elementDefinition Id="43ccde9b-b0da-4ea0-b67f-47ac6e85340f" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>

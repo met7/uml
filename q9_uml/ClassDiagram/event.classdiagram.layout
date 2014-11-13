@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="event">
+  <logicalClassDesignerModelMoniker Id="727907a2-4ea7-45f0-89de-f53d68fb1e0a" />
+  <nestedChildShapes>
+    <classShape Id="1dbacf20-a0d4-472b-8526-8b87db0a396c" absoluteBounds="1, 1.75, 1.5, 0.95263671875" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="a0aae657-a017-417b-a3cd-9f47e58c7fa0" LastKnownName="KEventCreator" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="0869a733-1865-477d-b54a-62e50c0bb840" absoluteBounds="1.0149999999999997, 2.14, 1.4700000000000002, 0.226318359375" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="82b1aa85-fa66-4a92-a468-2b7fcd96ac55" absoluteBounds="1.0149999999999997, 2.376318359375, 1.4700000000000002, 0.226318359375" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <commentShape Id="083bc4f7-0a97-436c-a5e4-fb0a0cfdcfef" absoluteBounds="0.5, 0.75, 6.5, 0.375" customColor="251, 247, 200">
+      <commentMoniker Id="5e7c5c45-f952-4e5a-937b-bf6a12ea98ea" />
+      <relativeChildShapes />
+    </commentShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>
